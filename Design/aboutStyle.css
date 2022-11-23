@@ -1,0 +1,30 @@
+title {
+    background: linear-gradient(to right, beige, cornsilk);
+    font-family: "TeX Gyre Schola", "New Century Schoolbook", Serif;
+    margin: auto;
+}
+
+.title-div {
+    text-align: center;
+}
+
+h1 {
+    font-family: "TeX Gyre Schola", "New Century Schoolbook", Serif;
+    font-size: 60px;
+
+}
+
+body {
+    background: linear-gradient(to right, beige, cornsilk);
+    font-family: "TeX Gyre Schola", "New Century Schoolbook", Serif;
+    margin: auto;
+}
+
+.about {
+    font-family: "TeX Gyre Schola", "New Century Schoolbook", Serif;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+    text-align: center;
+
+}
