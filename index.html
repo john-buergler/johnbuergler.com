@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="Design/style.css">
-
-
-
 </head>
 <body>
 <div style="vertical-align: center; margin: auto; align-content: center">
@@ -66,26 +63,10 @@
     </div>
     <div class="box fade">
         <div class="container">
-                <a href="https://drive.google.com/file/d/1v98g3Ixx1jN_sH-sSPKm7cdJ3uhm-qDn/view?usp=sharing", target="_blank">
-                    <img src="Resources/record.png", class="record">
-                </a>
-                <img src="Resources/resume-1.png", class="cover">
-        </div>
-    </div>
-    <div class="box fade">
-        <div class="container">
                 <a href="https://github.com/john-buergler", target="_blank">
                     <img src="Resources/record.png", class="record">
                 </a>
                 <img src="Resources/github-1.png", class="cover">
-        </div>
-    </div>
-    <div class="box fade">
-        <div class="container" style="align-content: center;">
-                <a href="about.html" , target="_blank">
-                    <img src="Resources/record.png", class="record">
-                </a>
-                <img src="Resources/aboutMe-1.png", class="cover">
         </div>
     </div>
 
@@ -94,13 +75,22 @@
 </div>
 <br><br><br><br><br><br>
 
-<div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
+<div class="button-table">
+    <div class="about">
+        <a href="about.html" class="corner-buttons">About Me</a>
+    </div>
+    <div class="dots">
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </div>
+    <div class="resume">
+        <a href="https://drive.google.com/file/d/1v98g3Ixx1jN_sH-sSPKm7cdJ3uhm-qDn/view?usp=sharing", target="_blank" class="corner-buttons">Resume</a>
+    </div>
+</div>
 </div>
 <script src="model.js"></script>
 </body>

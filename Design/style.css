@@ -7,6 +7,66 @@ h1 {
     text-align: center;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+a:after {
+    text-decoration: none;
+
+}
+
+.corner-buttons {
+    font-size: 25px;
+    font-family: "Courier New";
+    width: 100%;
+    color: black;
+}
+
+.button-table {
+    display: table-row;
+    position: absolute;
+    width: 100%;
+}
+
+.about {
+    display: table-cell;
+    width: 15%;
+    position: absolute;
+    left: 0px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+
+}
+
+.dots {
+    display: table-cell;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+.resume {
+    display: table-cell;
+    width: 15%;
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
 @keyframes slideOut {
     to {
         transform: translateX(80%);
@@ -60,7 +120,7 @@ h1 {
 }
 
 .slideshow-container {
-    top: 80px;
+    top: 60px;
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -174,6 +234,7 @@ body {
     animation:
             typing 1s steps(35, end) forwards,
             blink .8s infinite;
+    animation-delay: 1.5s;
 }
 
 .type-container {
@@ -181,7 +242,7 @@ body {
     position: relative;
     margin: auto;
     left: 36%;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 @keyframes typing {
