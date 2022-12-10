@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Recommendation Engine</title>
+    <link rel="stylesheet" href="../Design/recEngineStyle.css">
+
+</head>
+<body>
+<title>
+    Game Recommendation Engine
+</title>
+<div class="desc">
+    This project is a game recommendation engine for the Steam platform, which
+    used machine learning and data pipelines to provide the user a top 10 list of recommended games.<br><br>
+<div style="font-size: 15px">
+    Here are your recommended games:<br>
+    Talvisota - Winter War<br>
+    Fun with Ragdolls: The Game<br>
+    Battlevoid: Harbinger<br>
+    GemCraft - Chasing Shadows<br>
+    Ashes of Creation Apocalypse<br>
+    Steel Circus<br>
+    Mass Effect™: Andromeda Deluxe Edition<br>
+    Alien Rage - Unlimited<br>
+    GUILTY GEAR XX ACCENT CORE PLUS R<br>
+    Borderlands Game of the Year Enhanced<br>
+</div>
+    <br>In order to do this, we used two open-source databases called SteamSpy API and the official Steam web API
+    in order to gather data about the user and the games that we would be working with. The approach that we decided
+    to take was a K-Means clustering approach based on the tags and genres of the games provided.
+    <img class="example" src="../Resources/clusterPlot.png" style="height: 40%; width: 40%; padding: 2%">
+    To do this, we used the Scikit Learn machine learning library along with pandas databases in order to engineer and
+    develop and process the data that we were going to use.<br><br>
+    This project most importantly taught me the many considerations to take into account when training a machine learning model.
+    To learn more about the process, you can click the Full Report button below!
+</div>
+<div class="button-table">
+    <div class="about">
+        <a href="../index.html" class="corner-buttons"><b>Home</b></a>
+    </div>
+    <div class="report">
+        <a href="../Resources/team_41_final_report%20(1).html" class="corner-buttons" target="_blank"><b>Full Report</b></a>
+    </div>
+</div>
+</body>
+</html>
