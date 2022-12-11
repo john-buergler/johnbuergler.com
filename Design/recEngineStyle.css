@@ -100,7 +100,7 @@ a:after {
     animation:
             typing 1s steps(35, end) forwards,
             blink .8s infinite;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 .type-container {
