@@ -89,3 +89,38 @@ a:after {
     width: 100%;
     position: absolute;
 }
+
+.typed-out {
+    overflow: hidden;
+    border-right: .05em solid black;
+    white-space: nowrap;
+    font-size: 15px;
+    font-family: "Courier New";
+    width: 0;
+    animation:
+            typing 1s steps(35, end) forwards,
+            blink .8s infinite;
+    animation-delay: 1.5s;
+}
+
+.type-container {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    left: calc(50% - 225.44px);
+    padding-top: 25px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+    to {
+        border-color: black;
+    }
+}

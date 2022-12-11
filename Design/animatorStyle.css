@@ -9,7 +9,7 @@ body {
 title {
     font-family: 'Courier New';
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     font-size: 50px;
     width: 100%;
     display: flex;
@@ -56,4 +56,39 @@ a:hover {
 a:after {
     text-decoration: none;
 
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .05em solid black;
+    white-space: nowrap;
+    font-size: 15px;
+    font-family: "Courier New";
+    width: 0;
+    animation:
+            typing 1s steps(35, end) forwards,
+            blink .8s infinite;
+    animation-delay: 1.5s;
+}
+
+.type-container {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    left: calc(50% - 202.94px);
+    padding-top: 25px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent
+    }
+    to {
+        border-color: black;
+    }
 }
