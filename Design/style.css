@@ -65,6 +65,7 @@ a:after {
     justify-content: center;
     display: flex;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 @keyframes slideOut {
