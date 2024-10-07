@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brain Hemorrhage Classifier</title>
+    <link rel="icon" type="image/x-icon" href="../Resources/brainHemorrhageCover.png">
+    <link rel="stylesheet" href="../Design/recEngineStyle.css">
+
+</head>
+<body>
+<title>
+    Brain Hemorrhage Classifier
+</title>
+<div class="type-container" style="left: calc(50% - 384.42px)">
+    <div class="typed-out">
+        <b>Genres: Python, Neural Networks, Data Transformation, Tensorflow</b>
+    </div>
+</div>
+<div class="desc" style="padding-top: 2%; font-family: 'Courier New',monospace; margin-left: 25%; margin-right: 25%">
+    This goal of this project was to utilize Artificial Intelligence techniques to classify brain hemorrhages
+    based on real brain scan image data. We were given thousands of brain scan files of assorted hemorrhage types,
+    including intraparenchymal, intraventricular, subarachnoid, subdural, epidural, and mixed bleeding.<br><br>
+    The images looked like this:<br><br>
+</div>
+
+<img src="../Resources/blueScanHemorrhages.PNG" style="height: 200px; width: auto; justify-content: center;
+    margin: auto;
+    display: flex;">
+
+<div class="desc" style="padding-top: 2%; font-family: 'Courier New',monospace; margin-left: 25%; margin-right: 25%">
+    These images are real brain scan image data from a company in Boston, and along with the images we were provided
+    the real classification label of each hemorrhage scan.<br><br>
+
+    We reduced the dimensionality of the image data by making them lower definition and greyscale, which drastically
+    dropped our trainable parameters.<br><br>
+</div>
+
+<img src="../Resources/hemorrhages.PNG" style="height: 400px; width: auto; justify-content: center;
+    margin: auto;
+    display: flex;">
+
+<br><br>
+
+<img src="../Resources/preDataTransformation.PNG" style="height: 400px; width: auto; justify-content: center;
+    margin: auto;
+    display: flex;">
+
+<br><br>
+
+<img src="../Resources/model2.PNG" style="height: 400px; width: auto; justify-content: center;
+    margin: auto;
+    display: flex;">
+
+<div class="desc" style="padding-top: 2%; font-family: 'Courier New',monospace; margin-left: 25%; margin-right: 25%">
+    After training, the CNN was able to classify one of the 6 types of brain hemorrhages ~60% of the time. Ideally,
+    given more time and computational power, we would have improved our model by increasing the number of trainable
+    parameters with multi-window input data.
+</div>
+
+<div class="desc" style="padding-top: 2%">
+
+</div>
+
+</body>
+<a href="../index.html" class="about" style="padding: 50px; color: black; font-family: 'Courier New',monospace;"><b>Home</b></a>
+</html>
